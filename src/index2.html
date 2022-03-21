@@ -17,11 +17,15 @@
 
     <style>
         .card {
-            -webkit-box-shadow: 64px 10px 5px 0px rgba(0, 0, 0, 0.1);
-            -moz-box-shadow: 64px 10px 5px 0px rgba(0, 0, 0, 0.1);
-            box-shadow: 64px 10px 5px 0px rgba(0, 0, 0, 0.1);
+            -webkit-box-shadow: 6px 2px 33px 11px rgba(0,0,0,0.47);
+            -moz-box-shadow: 6px 2px 33px 11px rgba(0,0,0,0.47);
+            box-shadow: 6px 2px 33px 11px rgba(0,0,0,0.47);
             font-family: 'Praise', cursive;
             color: indigo;
+            transition: 0.4s;
+        }
+        .card:hover {
+            transform: scale(1.2);
         }
 
         img {
@@ -45,25 +49,33 @@
             border-radius: 10px;
             height: 120px;
         }
+        #alo2:hover {
+            transform: scale(1.2);
+        }
+
+        #alo2 {
+            transition: 0.4s;
+        }
+
     </style>
 
 </head>
 <body>
 <div class="container">
-    <div class="div">
+    <div class="div mt-2">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-4">
                 <a href="index.html">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Seal_of_the_Central_Intelligence_Agency.svg"
+                <img id="alo2" src="https://upload.wikimedia.org/wikipedia/commons/2/25/Seal_of_the_Central_Intelligence_Agency.svg"
                      alt="" height="120">
                 </a>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-4">
                 <img id="c1" src="images/unnamed.gif"/>
             </div>
             <div class="col-lg-4">
-                <nav class="navbar navbar-light bg-light cg">
-                    <a class="navbar-brand">Guns</a>
+                <nav class="navbar cg">
+                    <a class="navbar-brand"><h3>Guns</h3></a>
                     <form class="form-inline">
                         <input size="24px" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -73,7 +85,7 @@
         </div>
     </div>
 </div>
-<div class="container">
+<div class="container con1">
     <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center mt-3">
             <div class="card">

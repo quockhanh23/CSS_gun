@@ -15,49 +15,113 @@
     <link href="./css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/css1.css">
     <style>
-       .col-6 img {
+        .col-6 img {
             width: 100%;
             height: 400px;
         }
-       #alo:hover {
-           transform: scale(1.2);
-       }
-       #alo {
-           transition: 0.4s;
-       }
+
+        .alo:hover {
+            transform: scale(1.2);
+        }
+
+        .alo {
+            transition: 0.4s;
+        }
+        #alo2:hover {
+            transform: scale(1.2);
+        }
+
+        #alo2 {
+            transition: 0.4s;
+        }
+
+        body {
+            background: #ccddf9;
+        }
+
+        img {
+            border-radius: 10px;
+        }
+
 
     </style>
 </head>
 <body>
-<div class="container-fluid text-center c1">
 
+<div class="container mt-2">
+    <div class="row">
+        <a href="index.html">
+            <img id="alo2" src="https://upload.wikimedia.org/wikipedia/commons/2/25/Seal_of_the_Central_Intelligence_Agency.svg"
+                 alt="" height="120">
+        </a>
+    </div>
+    <hr class="light-100">
+</div>
+<div class="container-fluid text-center c1">
     <div class="row">
         <div class="col-6">
-          <h2>AKM</h2>
+            <h2>AKM</h2>
             <img src="images/AKM_1.jpg"/>
         </div>
-        <div class="col-4">
-            <a href="index.html">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Seal_of_the_Central_Intelligence_Agency.svg"
-                     alt="" height="120">
-            </a>
+        <div class="col-5">
+            <div class="row" style="height: 70px"></div>
+            <div class="row" style="height: 50px"><h5>Thông tin sản phẩm:</h5></div>
+            <div class="row">
+                <div class="col-7">
+                    <p>Trọng lượng (g):</p>
+                    <p>Chiều dài (mm):</p>
+                    <p>Chế độ bắn:</p></div>
+                <div class="col-5">
+                    <p>3100</p>
+                    <p>900</p>
+                    <p>Semi, Full Auto</p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-3">
+                    <a  href="checkout.html" class="btn btn-primary alo" style="border: none; background: #325dbe">Buy now</a>
+                </div>
+                <div class="col-6">
+                    <a href="#" class="btn btn-primary alo" style="border: none; background: chartreuse">Add to cart</a>
+                </div>
+
+            </div>
         </div>
+
     </div>
-    <div class="row">
-        <div class="col-3">
-            <p>Trọng lượng (g)</p>
-            <p>Chiều dài (mm)</p>
-            <p>Chế độ bắn</p>
-        </div>
-        <div class="col-3">
-            <p>3100</p>
-            <p>900</p>
-            <p>Semi, Full Auto</p>
-        </div>
-        <div id="alo" class="col-3">
-            <a href="checkout.html" class="btn btn-primary">Buy now</a>
-        </div>
+
     </div>
 </div>
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <hr class="light">
+                <p>111-222-3333</p>
+                <p>mymail@gmail.com</p>
+                <p>Hanoi, Vietnam</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Working hours</h5>
+                <hr class="light">
+                <p>Monday-Friday: 8am - 5pm</p>
+                <p>Weekend: 8am - 12am</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Services</h5>
+                <hr class="light">
+                <p>Outsourcing</p>
+                <p>Develop</p>
+                <p></p>
+            </div>
+            <div class="col-12">
+                <hr class="light-100">
+                <h5>&copy; khangaquay</h5>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

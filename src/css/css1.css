@@ -1,7 +1,6 @@
 .navbar {
     background-color: rgba(82, 64, 120,0.9) !important;
 }
-
 .navbar li a:hover {
     color: indigo !important;
 }
@@ -51,4 +50,12 @@ hr.light {
     border-top: 1px solid #d5d5d5;
     width: 100%;
 }
+#alo2:hover {
+    transform: scale(1.2);
+}
+
+#alo2 {
+    transition: 0.4s;
+}
+
 
